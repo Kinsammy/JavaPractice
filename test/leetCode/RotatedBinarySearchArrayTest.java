@@ -25,8 +25,8 @@ class RotatedBinarySearchArrayTest {
     @Test
     void findTargetIndexTest() {
         int[] arr = {4, 5, 6, 7, 0, 1, 2};
-        int target = 4;
+        int target = 0;
         int ans = findTargetIndex(arr, target);
-        assertEquals(0, ans);
+        assertEquals(4, ans);
     }
 }
