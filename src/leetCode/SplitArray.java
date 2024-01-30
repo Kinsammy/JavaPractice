@@ -10,8 +10,8 @@ public class SplitArray {
     public static int splitSumArray(int[] nums, int m){
         int start = 0;
         int end = 0;
-//        todo -> make start to be largest element
-//        todo -> make end to be sum of all elements
+        todo -> make start to be largest element
+        todo -> make end to be sum of all elements
         for (int index = 0; index < nums.length; index++) {
             start = Math.max(start, nums[index]);
             end += nums[index];
